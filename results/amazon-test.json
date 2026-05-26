@@ -1,11 +1,31 @@
 {
-  "tested_at": "2026-05-26T14:13:37.688Z",
+  "tested_at": "2026-05-26T14:16:51.283Z",
   "source": "amazon-buddy",
-  "keyword": "viral gadgets",
-  "success": true,
-  "results": {
-    "totalProducts": "267",
-    "category": "aps",
-    "result": []
-  }
+  "tests": [
+    {
+      "keyword": "phone stand",
+      "success": false,
+      "error": "No more products"
+    },
+    {
+      "keyword": "desk lamp",
+      "success": false,
+      "error": "No more products"
+    },
+    {
+      "keyword": "kitchen gadgets",
+      "success": false,
+      "error": "No more products"
+    },
+    {
+      "keyword": "wireless earbuds",
+      "success": false,
+      "error": "No more products"
+    },
+    {
+      "keyword": "water bottle",
+      "success": false,
+      "error": "No more products"
+    }
+  ]
 }
